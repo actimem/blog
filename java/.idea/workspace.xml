@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aabb63fb-7aa4-4494-b5b7-077de1e0ede8" name="Default" comment="" />
+    <list default="true" id="aabb63fb-7aa4-4494-b5b7-077de1e0ede8" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\w\blog\code\java\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\w\blog\code\java\target\classes\com\actimem\test\jaxb\hello\hello.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\w\blog\code\java\target\classes\com\actimem\test\jaxb\hello\hello.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\w\blog\code\java\target\classes\com\actimem\test\test.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/AnnotatedStandardMXBean.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/AnnotatedStandardMXBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/App.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Description.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Description.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/excluded/Excluded$InnerExcluded.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/excluded/Excluded$InnerExcluded.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/excluded/Excluded.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/excluded/Excluded.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/GreetingListType.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/GreetingListType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/GreetingType.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/GreetingType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/HelloParser.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/HelloParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/included/Included.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/included/Included.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/MXBeanMain.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/MXBeanMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/MXBeanMain.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/MXBeanMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/MXBeanMain.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/MXBeanMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/MXBeanMain.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/MXBeanMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Name.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/jaxb/hello/jaxb/ObjectFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/Resource.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/Resource.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Resource.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/Resource.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/ResourceItem.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/ResourceItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/ResourceListener.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/ResourceListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/ResourceMXBean.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans1/ResourceMXBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/ResourceMXBean.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans2/ResourceMXBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/ResourceMXBean.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans3/ResourceMXBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/ResourceMXBean.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/example/jmx/mxbeans4/ResourceMXBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/visualvm/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/actimem/test/VisualVM.class" afterPath="$PROJECT_DIR$/target/classes/com/actimem/test/VisualVM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +72,8 @@
       <file leaf-file-name="Excluded.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/test/visualvm/excluded/Excluded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04491018" vertical-offset="0" max-vertical-offset="668">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.38173652" vertical-offset="0" max-vertical-offset="668">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +91,39 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="code" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="code" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -67,7 +131,7 @@
     <option name="width" value="3842" />
     <option name="height" value="1170" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -106,6 +170,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,6 +303,28 @@
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -360,7 +460,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998413" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -423,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/test/visualvm/excluded/Excluded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04491018" vertical-offset="0" max-vertical-offset="668">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.38173652" vertical-offset="0" max-vertical-offset="668">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
