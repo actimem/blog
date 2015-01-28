@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans3;
+package com.actimem.example.jmx.metadata;
 
 import java.util.List;
 
-import com.actimem.example.jmx.mxbeans2.ResourceItem;
+import com.actimem.example.jmx.mxbean.ResourceItem;
 
 @Description("A test resource")
 public interface ResourceMXBean {

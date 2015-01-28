@@ -13,21 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans4;
+package com.actimem.example.jmx.standardmbean;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
-import javax.management.Notification;
-import javax.management.NotificationBroadcasterSupport;
-
-public class Resource extends NotificationBroadcasterSupport implements ResourceMXBean {
-	List<String> items = new ArrayList<String>();
+public class Resource implements ResourceMBean {
+	List<String> items = new ArrayList<>();
 
 	public void addItem(String item) {
 		items.add(item);
-		notifyItemAdded(item);
 	}
 
 	public String getItem(int pos) {
@@ -44,19 +39,5 @@ public class Resource extends NotificationBroadcasterSupport implements Resource
 
 	public List<String> getItems() {
 		return items;
-	}
-	
-	private static int notificationNum = 0;
-	private static String secretItem = "Secret";
-	private void notifyItemAdded(String item) {
-		notificationNum++;
-		String notificationType = !item.equals(secretItem) ? "example.resource.addItem" : "example.resource.addSecretItem";
-		Notification notification = new Notification(
-				notificationType, 
-				"Resource", 
-				notificationNum, 
-				new Date().getTime(), 
-				"Added item: " + item);
-		sendNotification(notification);
 	}
 }

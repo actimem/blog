@@ -13,18 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans3;
+package com.actimem.example.jmx.metadata;
 
-import static java.lang.annotation.ElementType.PARAMETER;
+import java.lang.management.ManagementFactory;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import javax.management.MBeanServer;
+import javax.management.ObjectName;
 
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target({PARAMETER})
-public @interface Name {
-    String value();
+public class MXBeanMain {
+	public static void main(String[] args) throws Exception {
+		MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
+		ObjectName name = new ObjectName("Examples:type=JMX,name=MXBean");
+		Resource resource = new Resource();
+		resource.addItem("item 1");
+		resource.addItem("item 2");
+		mbs.registerMBean(new AnnotatedStandardMXBean(resource, ResourceMXBean.class), name);
+		
+		Thread.sleep(Long.MAX_VALUE);
+	}
 }

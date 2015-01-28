@@ -13,15 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans1;
+package com.actimem.example.jmx.metadata;
 
-import java.util.List;
+import java.lang.annotation.*;
+import static java.lang.annotation.ElementType.*;
 
-public interface ResourceMXBean {
-	public String getLastItem();
-	public int getSize();
-
-	public void addItem(String item);
-	public List<String> getItems();
-	public String getItem(int pos);
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target({CONSTRUCTOR, METHOD, PARAMETER, TYPE})
+public @interface Description {
+    String value();
 }

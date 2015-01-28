@@ -13,14 +13,38 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans3;
+package com.actimem.example.jmx.mxbean;
 
-import java.lang.annotation.*;
-import static java.lang.annotation.ElementType.*;
+public class ResourceItem {
+	private String name;
+	private String surname;
+	private int age;
 
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target({CONSTRUCTOR, METHOD, PARAMETER, TYPE})
-public @interface Description {
-    String value();
+	public ResourceItem() {
+		
+	}
+	public ResourceItem(String name, String surname, int age) {
+		this.name = name;
+		this.surname = surname;
+		this.age = age;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSurname() {
+		return surname;
+	}
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 }

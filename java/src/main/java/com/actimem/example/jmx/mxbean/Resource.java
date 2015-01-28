@@ -13,23 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans1;
+package com.actimem.example.jmx.mxbean;
 
-import java.lang.management.ManagementFactory;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
-import javax.management.MBeanServer;
-import javax.management.ObjectName;
-
-public class MXBeanMain {
-	public static void main(String[] args) throws Exception {
-		MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
-		ObjectName name = new ObjectName("Examples:type=JMX,name=MXBean");
-		Resource resource = new Resource();
-		resource.addItem("item 1");
-		resource.addItem("item 2");
-		mbs.registerMBean(resource, name);
-		
-		Thread.sleep(Long.MAX_VALUE);
+public class Resource implements ResourceMXBean {
+	SortedMap<Integer, ResourceItem> items = new TreeMap<>();
+	private int nextId = 1;
+	
+	public void addItem(ResourceItem item) {
+		items.put(nextId++, item);
 	}
 
+	public ResourceItem getItem(int pos) {
+		return items.get(pos);
+	}
+
+	public ResourceItem getLastItem() {
+		return items.get(nextId);
+	}
+
+	public int getSize() {
+		return items.size();
+	}
+
+	public SortedMap<Integer, ResourceItem> getItems() {
+		return items;
+	}
 }

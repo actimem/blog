@@ -13,37 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans3;
+package com.actimem.example.jmx.notifications;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import com.actimem.example.jmx.mxbeans2.ResourceItem;
+public interface ResourceMXBean {
+	public String getLastItem();
+	public int getSize();
 
-public class Resource implements ResourceMXBean {
-	List<String> items = new ArrayList<String>();
-
-	public void addItem(String item) {
-		items.add(item);
-	}
-
-	public String getItem(int pos) {
-		return items.get(pos);
-	}
-
-	public String getLastItem() {
-		return items.get(getSize()-1);
-	}
-
-	public int getSize() {
-		return items.size();
-	}
-
-	public List<String> getItems() {
-		return items;
-	}
-	
-	public ResourceItem getItem2() {
-		return new ResourceItem("hello", "surname", 70);
-	}
+	public void addItem(String item);
+	public List<String> getItems();
+	public String getItem(int pos);
 }

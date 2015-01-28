@@ -13,12 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans4;
-
-import java.lang.management.ManagementFactory;
+package com.actimem.example.jmx.notifications;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
+import java.lang.management.ManagementFactory;
 
 public class MXBeanMain {
 	public static void main(String[] args) throws Exception {

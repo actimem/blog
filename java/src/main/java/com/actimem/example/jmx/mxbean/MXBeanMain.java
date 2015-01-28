@@ -13,31 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans1;
+package com.actimem.example.jmx.mxbean;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.lang.management.ManagementFactory;
 
-public class Resource implements ResourceMXBean {
-	List<String> items = new ArrayList<String>();
+import javax.management.MBeanServer;
+import javax.management.ObjectName;
 
-	public void addItem(String item) {
-		items.add(item);
+public class MXBeanMain {
+	public static void main(String[] args) throws Exception {
+		MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
+		ObjectName name = new ObjectName("Examples:type=JMX,name=MXBean");
+		Resource resource = new Resource();
+		resource.addItem(new ResourceItem("name1", "surname1", 1));
+		resource.addItem(new ResourceItem("name2", "surname2", 2));
+		mbs.registerMBean(resource, name);
+		
+		Thread.sleep(Long.MAX_VALUE);
 	}
 
-	public String getItem(int pos) {
-		return items.get(pos);
-	}
-
-	public String getLastItem() {
-		return items.get(getSize()-1);
-	}
-
-	public int getSize() {
-		return items.size();
-	}
-
-	public List<String> getItems() {
-		return items;
-	}
 }

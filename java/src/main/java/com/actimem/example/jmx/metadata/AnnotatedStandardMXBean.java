@@ -13,12 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans3;
-
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
+package com.actimem.example.jmx.metadata;
 
 import javax.management.MBeanAttributeInfo;
 import javax.management.MBeanInfo;
@@ -26,6 +21,10 @@ import javax.management.MBeanOperationInfo;
 import javax.management.MBeanParameterInfo;
 import javax.management.NotCompliantMBeanException;
 import javax.management.StandardMBean;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AnnotatedStandardMXBean extends StandardMBean {
 
@@ -156,9 +155,9 @@ public class AnnotatedStandardMXBean extends StandardMBean {
 
     private static final Map<String, Class<?>> primitiveClasses = new HashMap<String, Class<?>>();
     static {
-        Class<?>[] prims = {byte.class, short.class, int.class, long.class, float.class, double.class, char.class, boolean.class};
-        for (Class<?> c : prims)
-            primitiveClasses.put(c.getName(), c);
+        Class<?>[] primitives = {byte.class, short.class, int.class, long.class, float.class, double.class, char.class, boolean.class};
+        for (Class<?> clazz : primitives)
+            primitiveClasses.put(clazz.getName(), clazz);
     }
     
 }

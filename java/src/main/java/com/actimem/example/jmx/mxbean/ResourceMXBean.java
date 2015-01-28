@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans4;
+package com.actimem.example.jmx.mxbean;
 
-import java.util.List;
+import java.util.SortedMap;
 
 public interface ResourceMXBean {
-	public String getLastItem();
+	public ResourceItem getLastItem();
 	public int getSize();
 
-	public void addItem(String item);
-	public List<String> getItems();
-	public String getItem(int pos);
+	public void addItem(ResourceItem item);
+	public SortedMap<Integer, ResourceItem> getItems();
+	public ResourceItem getItem(int pos);
 }

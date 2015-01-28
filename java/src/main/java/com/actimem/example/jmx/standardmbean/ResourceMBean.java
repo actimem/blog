@@ -13,32 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.actimem.example.jmx.mxbeans2;
+package com.actimem.example.jmx.standardmbean;
 
-import java.util.SortedMap;
-import java.util.TreeMap;
+import java.util.List;
 
-public class Resource implements ResourceMXBean {
-	SortedMap<Integer, ResourceItem> items = new TreeMap<Integer, ResourceItem>();
-	private int nextId = 1;
-	
-	public void addItem(ResourceItem item) {
-		items.put(nextId++, item);
-	}
+public interface ResourceMBean {
+	public String getLastItem();
+	public int getSize();
 
-	public ResourceItem getItem(int pos) {
-		return items.get(pos);
-	}
-
-	public ResourceItem getLastItem() {
-		return items.get(nextId);
-	}
-
-	public int getSize() {
-		return items.size();
-	}
-
-	public SortedMap<Integer, ResourceItem> getItems() {
-		return items;
-	}
+	public void addItem(String item);
+	public List<String> getItems();
+	public String getItem(int pos);
 }
