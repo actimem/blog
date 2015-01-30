@@ -30,5 +30,4 @@ public class MXBeanMain {
 		
 		Thread.sleep(Long.MAX_VALUE);
 	}
-
 }
