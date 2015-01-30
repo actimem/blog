@@ -7,7 +7,7 @@ import org.springframework.jmx.export.annotation.ManagedResource;
 import java.util.ArrayList;
 import java.util.List;
 
-@ManagedResource(objectName = "Examples:type=JMX,name=ExampleSpringMBean")
+@ManagedResource(objectName = "Examples:type=JMX,name=Resource")
 public class Resource {
     List<String> items = new ArrayList<>();
 

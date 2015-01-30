@@ -14,6 +14,11 @@ public class JmxSpringMain {
         return new Resource();
     }
 
+    @Bean
+    public Calculator calculator() {
+        return new Calculator();
+    }
+
     public static void main(String[] args) throws InterruptedException {
         ApplicationContext context = new AnnotationConfigApplicationContext(JmxSpringMain.class);
         Resource resource = context.getBean(Resource.class);
