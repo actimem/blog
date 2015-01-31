@@ -36,5 +36,4 @@ public class Calculator {
 	public void calculate(int x, int y) {
 		lastCalculation = x + y;
 	}
-
 }

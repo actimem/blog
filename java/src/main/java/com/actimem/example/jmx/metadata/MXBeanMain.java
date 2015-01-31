@@ -28,7 +28,6 @@ public class MXBeanMain {
 		resource.addItem("item 1");
 		resource.addItem("item 2");
 		mbs.registerMBean(new AnnotatedStandardMXBean(resource, ResourceMXBean.class), name);
-		
 		Thread.sleep(Long.MAX_VALUE);
 	}
 }

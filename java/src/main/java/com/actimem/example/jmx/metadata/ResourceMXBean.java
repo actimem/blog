@@ -38,5 +38,4 @@ public interface ResourceMXBean {
 	
 	@Description("Returns all the items in this resource")
 	public ResourceItem getItem2();
-
 }
