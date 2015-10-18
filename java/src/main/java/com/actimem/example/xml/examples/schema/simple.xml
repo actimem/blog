@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<person id="123"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.actimem.com/simple simple.xsd"
+        xmlns="http://www.actimem.com/simple">
+    <title>Mr</title>
+    <name>Jim Carter</name>
+    <age>28</age>
+</person>

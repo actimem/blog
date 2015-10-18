@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.actimem.com/mixed mixed.xsd"
+        xmlns="http://www.actimem.com/mixed">
+
+    My name is <title>Mr</title> <name>Jim Carter</name>,
+    and my age is <age>28</age>
+</person>

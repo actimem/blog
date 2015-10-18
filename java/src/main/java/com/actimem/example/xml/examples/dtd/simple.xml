@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE person SYSTEM "simple.dtd" >
+
+<person id="123">
+    <name>Jim Carter</name>
+    <title>super cool</title>
+    <age>28</age>
+</person>

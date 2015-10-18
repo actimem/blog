@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="simple_no_ns.xsd">
+    <title>Mr</title>
+    <name>Jim Carter</name>
+    <age>28</age>
+</person>

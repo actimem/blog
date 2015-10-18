@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.actimem.com/company company.xsd"
+         xmlns="http://www.actimem.com/company">
+    <name>Actimem</name>
+    <address>135 Holborn Road, London, E1 5JK</address>
+    <website>www.actimem.com</website>
+
+    <workers>
+        <employee employeeId="abc">
+            <name>John Smith</name>
+            <age>55</age>
+            <join-date>2005-01-20</join-date>
+            <department>Accounts</department>
+            <contact phone="1111" contact-type="Home"/>
+            <comments>He is the best director this
+                        company has ever had</comments>
+        </employee>
+        <employee employeeId="3721">
+            <name>James Lloyd</name>
+            <age>23</age>
+            <join-date>2012-10-05</join-date>
+            <department>IT</department>
+            <contact phone="2222" contact-type="Home"/>
+            <contact phone="3333" contact-type="Work"/>
+        </employee>
+        <contractor>
+            <name>Andy Grant</name>
+            <department>Sales</department>
+            <comments>
+                <![CDATA[
+                He is a rockie.
+                We should <b>watch out</b> he gets the job done.
+                ]]>
+            </comments>
+        </contractor>
+        <visitor>
+            <title>Mr</title>
+            <name>Very Important Person</name>
+            <expiry>2013-01-15T12:30:00</expiry>
+        </visitor>
+    </workers>
+</company>

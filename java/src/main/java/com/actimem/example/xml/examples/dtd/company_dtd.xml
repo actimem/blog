@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE company SYSTEM "company.dtd">
+
+<company>
+    <name>Actimem</name>
+    <address>135 Holborn Road, London, E1 5JK</address>
+    <website>www.actimem.com</website>
+
+    <employees>
+        <employee employeeId="abc">
+            <name>John Smith</name>
+            <age>55</age>
+            <join-date>2005-01-20</join-date>
+            <department>Accounts</department>
+            <contact phone="1111"/>
+            <comments>He is the best director this
+                        company has ever had</comments>
+        </employee>
+        <employee employeeId="3721">
+            <name>James Lloyd</name>
+            <age>23</age>
+            <join-date>2012-10-05</join-date>
+            <department>IT</department>
+            <contact phone="2222" contact-type="Home"/>
+            <contact phone="3333" contact-type="Work"/>
+        </employee>
+        <employee employeeId="1234">
+            <name>Andy Grant</name>
+            <age>30</age>
+            <join-date>2010-05-13</join-date>
+            <department>IT</department>
+            <comments>
+                <![CDATA[
+                He is a rockie.
+                We should <b>watch out</b> he gets the job done.
+                ]]>
+            </comments>
+        </employee>
+    </employees>
+</company>

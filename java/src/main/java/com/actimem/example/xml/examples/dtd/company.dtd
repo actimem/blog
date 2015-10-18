@@ -1,0 +1,22 @@
+<!ELEMENT company (name, address, website, employees)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT employees (employee*)>
+<!ELEMENT employee (name, age, join-date, department, contact*, comments?)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT join-date (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT contact EMPTY>
+
+<!ATTLIST employee employeeId CDATA #IMPLIED>
+<!ATTLIST employee department (Accounts | IT | Sales) #IMPLIED>
+<!ATTLIST contact contact-type (Work | Home) "Work">
+<!ATTLIST contact phone CDATA #REQUIRED>
+
+
+
+
+

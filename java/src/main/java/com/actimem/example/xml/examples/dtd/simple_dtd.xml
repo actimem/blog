@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE person [
+    <!ELEMENT person (name, title, age)>
+    <!ELEMENT name   (#PCDATA)>
+    <!ELEMENT title  (#PCDATA)>
+    <!ELEMENT age    (#PCDATA)>
+    <!ATTLIST person id CDATA #REQUIRED>
+]>
+
+<person id="123">
+    <name>Jim Carter</name>
+    <title>super cool</title>
+    <age>28</age>
+</person>
