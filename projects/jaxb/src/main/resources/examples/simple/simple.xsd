@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="company">
+    <complexType>
+      <sequence>
+        <element type="string" name="name"/>
+        <element type="string" name="website"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

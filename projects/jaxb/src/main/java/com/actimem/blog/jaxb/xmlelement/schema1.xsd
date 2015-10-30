@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="elementListExample" type="elementListExample"/>
+
+  <xs:complexType name="elementListExample">
+    <xs:sequence>
+      <xs:element name="nonAnnotatedList" type="xs:string" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="defaultRequiredList" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="requiredList" type="xs:string" maxOccurs="unbounded"/>
+      <xs:element name="notRequiredList" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

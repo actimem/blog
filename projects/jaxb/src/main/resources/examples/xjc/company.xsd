@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+        xmlns="http://www.actimem.com/company"
+        targetNamespace="http://www.actimem.com/company"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+  <xs:element name="company" type="CompanyType"/>
+
+  <xs:complexType name="CompanyType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="address" type="xs:string"/>
+      <xs:element name="website" type="xs:anyURI"/>
+      <xs:element name="workers">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="employee" type="EmployeeType"/>
+            <xs:element name="contractor" type="ContractorType"/>
+            <xs:element name="visitor" type="VisitorType"/>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="EmployeeType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="age" type="xs:integer"/>
+      <xs:element name="join-date" type="xs:date"/>
+      <xs:element name="department" type="DepartmentType"/>
+      <xs:element name="contact" type="ContactType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="comments" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="employeeId" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="ContractorType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="department" type="DepartmentType"/>
+      <xs:element name="comments" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="VisitorType">
+    <xs:all>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="expiry" type="xs:dateTime"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="ContactType">
+      <xs:attribute name="phone" type="xs:string" use="optional"/>
+      <xs:attribute name="contact-type" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="DepartmentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Accounts"/>
+      <xs:enumeration value="IT"/>
+      <xs:enumeration value="Sales"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AgeType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="150"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="company" type="company"/>
+
+  <xs:complexType name="company">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="countries" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="countries" type="xs:string" minOccurs="0" maxOccurs="3"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

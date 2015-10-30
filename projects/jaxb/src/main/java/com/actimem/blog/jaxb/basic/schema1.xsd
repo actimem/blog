@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="company" type="company"/>
+
+  <xs:complexType name="company">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+      <xs:element name="ranking" type="xs:int"/>
+      <xs:element name="probabilityDefault" type="xs:double"/>
+      <xs:element name="sector" type="sector" minOccurs="0"/>
+      <xs:element name="foundedDate" type="xs:dateTime" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:int" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="sector">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Finance"/>
+      <xs:enumeration value="Healtcare"/>
+      <xs:enumeration value="Industrials"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
