@@ -26,100 +26,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892eb0c8-ac0a-4f99-b030-b0dc54b8cb73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/AccessTypeDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/xmlaccesstype/AccessTypeDemoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/AdaptersParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/adapters/AdaptersParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeListExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/BasicAnnotatedDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Company.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyId.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyIdAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/CompanyListDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/CompanyListWrapperDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/CompanyMultiNamespace2Parser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/namespace/multinamespace2/CompanyMultiNamespace2ParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/CompanyNamespaceParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/namespace/defaultnamespace/CompanyNamespaceParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/basic/CompanySchemagenParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/DateTimeAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/DependencyListParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/dependency/list/DependencyListParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/actimem/blog/jaxb/dependency/map/DependencyMapParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementListExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Field.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/LocalDateAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/MarshallingDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/None.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Property.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/PublicMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Sector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Sector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/UnmarshallingDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/ValidationDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/XmlElementDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExampleWrapped.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/examples/validation/company.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/examples/xjc/company.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/examples/xslt/company.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jaxb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jaxb.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jaxb.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/examples/simple/simple.xml" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\App.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\VisualVM.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\HelloParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\hello.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\hello.xsd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\jaxb\GreetingListType.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\jaxb\GreetingType.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\jaxb\hello\jaxb\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\visualvm\Test.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\visualvm\excluded\Excluded.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Data\Documents\Personal\Blog\code\java\src\main\java\com\actimem\test\visualvm\included\Included.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../java/blog-code.iml" afterPath="$PROJECT_DIR$/../../java/blog-code.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../java/pom.xml" afterPath="$PROJECT_DIR$/../../java/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/AccessTypeDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/AccessTypeDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/AdaptersParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/AdaptersParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeListExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeListExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/BasicAnnotatedDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/BasicAnnotatedDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/CompanyBasicParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyId.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyIdAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/CompanyIdAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/CompanyListDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/CompanyListDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/CompanyListWrapperDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/CompanyListWrapperDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/CompanyMultiNamespace2Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/CompanyMultiNamespace2Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/CompanyNamespaceParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/CompanyNamespaceParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/DateTimeAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/DateTimeAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/DependencyListParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/DependencyListParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/DependencyMapParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementListExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/ElementListExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/list/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/map/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Field.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Field.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/LocalDateAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/LocalDateAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/MarshallingDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/MarshallingDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/None.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/None.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Property.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/Property.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/PublicMember.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlaccesstype/PublicMember.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Sector.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/Sector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Sector.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/Sector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/UnmarshallingDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/UnmarshallingDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/ValidationDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/ValidationDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/XmlElementDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/XmlElementDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExampleWrapped.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExampleWrapped.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jaxb.ipr" afterPath="$PROJECT_DIR$/jaxb.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jaxb.iws" afterPath="$PROJECT_DIR$/jaxb.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/company/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace2/employee/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/schemagen/package-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basic/schema1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/basicannotated/schema1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency/listwrapper/schema1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/schema1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlelement/schema1.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/schema1.xsd" afterPath="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/schema1.xsd" />
     </list>
     <ignored path="jaxb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -143,11 +121,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XsltDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XsltDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5743741">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Company.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="41" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,7 +147,30 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#1601#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyMultiNamespaceParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17682926">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -230,8 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlattribute/AttributeDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmlvalue/ValueExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListExample2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xmllist/XmlListDemo.java" />
@@ -265,12 +264,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/MarshallingDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/UnmarshallingDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/validation/ValidationDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/CompanyListWrapperDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/examples/xslt/company2.xsl" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/examples/xslt/company.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java" />
       </list>
     </option>
   </component>
@@ -902,48 +903,6 @@
               <option name="myItemId" value="jaxb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xslt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actimem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -983,7 +942,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="validation" />
+              <option name="myItemId" value="namespace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1025,53 +984,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dependency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
+              <option name="myItemId" value="namespace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actimem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dependency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listwrapper" />
+              <option name="myItemId" value="multinamespace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1089,7 +1006,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
@@ -1097,6 +1014,9 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/map" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/dependency" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1587,14 +1507,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/adapters/LocalDateAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/defaultnamespace/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1882,15 +1794,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="41" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1905,13 +1809,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/XsltDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5743741">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/xslt/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1601#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/actimem/blog/jaxb/namespace/multinamespace/CompanyMultiNamespaceParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17682926">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Apache 2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.25</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jaxb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.guava:guava:r09</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
