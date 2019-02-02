@@ -23,17 +23,20 @@ import java.io.IOException;
 
 public class MapDemo {
     public static void main(String[] args) throws IOException {
+        // Create Company and employees
         Company company = new Company();
         company.setName("Actimem");
         company.addEmployeeDepartment("John", "IT");
         company.addEmployeeDepartment("William", "Accounts");
         company.addEmployeeDepartment("Alfred", "Sales");
 
+        // Write to JSON
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         String json = mapper.writeValueAsString(company);
         System.out.println(json);
 
+        // Read from JSON
         Company company2 = mapper.readValue(json, Company.class);
         System.out.println(company2);
     }

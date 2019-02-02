@@ -38,29 +38,14 @@ public class Company {
     public Company() {
     }
 
-    public CompanyId getCompanyId() {
-        return companyId;
-    }
+    public CompanyId getCompanyId() { return companyId; }
+    public void setCompanyId(CompanyId companyId) { this.companyId = companyId; }
 
-    public void setCompanyId(CompanyId companyId) {
-        this.companyId = companyId;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public DateTime getFounded() {
-        return founded;
-    }
-
-    public void setFounded(DateTime founded) {
-        this.founded = founded;
-    }
+    public DateTime getFounded() { return founded; }
+    public void setFounded(DateTime founded) { this.founded = founded; }
 
     @Override
     public String toString() {

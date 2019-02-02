@@ -26,29 +26,14 @@ public class Company {
     public Company() {
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name;    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public Date getFounded() { return founded; }
+    public void setFounded(Date founded) { this.founded = founded; }
 
-    public Date getFounded() {
-        return founded;
-    }
-
-    public void setFounded(Date founded) {
-        this.founded = founded;
-    }
-
-    public Date getUpdatedTs() {
-        return updatedTs;
-    }
-
-    public void setUpdatedTs(Date updatedTs) {
-        this.updatedTs = updatedTs;
-    }
+    public Date getUpdatedTs() { return updatedTs; }
+    public void setUpdatedTs(Date updatedTs) { this.updatedTs = updatedTs; }
 
     @Override
     public String toString() {

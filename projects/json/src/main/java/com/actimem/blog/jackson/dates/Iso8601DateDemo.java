@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.gson.basic;
+package com.actimem.blog.jackson.dates;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
-public class PrettyPrintWriteDemo {
+public class Iso8601DateDemo {
     public static void main(String[] args) throws IOException {
-        Company company = createCompany();
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        gson.toJson(company, System.out);
-    }
-
-    private static Company createCompany() {
         Company company = new Company();
         company.setName("Actimem");
-        company.setFoundingYear(1999);
-        company.setShareValue(3.5);
-        company.getDepartments().add("accounts");
-        company.getDepartments().add("sales");
-        company.getDepartments().add("back office");
-        return company;
+        company.setFounded(new GregorianCalendar(2015, 5, 20).getTime());
+        company.setUpdatedTs(new Date());
+
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+        String json = mapper.writeValueAsString(company);
+        System.out.println(json);
+
+        Company company2 = mapper.readValue(json, Company.class);
+        System.out.println(company2.toString());
     }
 }

@@ -23,7 +23,7 @@ public class Company {
     private String name;
 
     @SerializedName("established")
-    private int foundedYear;
+    private int foundingYear;
 
     @SerializedName("price")
     private double shareValue;
@@ -31,12 +31,12 @@ public class Company {
     public Company() {
     }
 
-    public int getFoundedYear() {
-        return foundedYear;
+    public int getFoundingYear() {
+        return foundingYear;
     }
 
-    public void setFoundedYear(int foundedYear) {
-        this.foundedYear = foundedYear;
+    public void setFoundingYear(int foundingYear) {
+        this.foundingYear = foundingYear;
     }
 
     public String getName() {
@@ -57,6 +57,6 @@ public class Company {
 
     @Override
     public String toString() {
-        return String.format("Name: %s, Founded: %d, Share: %s", name, foundedYear, shareValue);
+        return String.format("Name: %s, Founded: %d, Share: %s", name, foundingYear, shareValue);
     }
 }

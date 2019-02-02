@@ -14,29 +14,19 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.gson.basic;
+package com.actimem.blog.jackson.emptyproperties;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 
-public class PrettyPrintWriteDemo {
+public class EmptyPropertiesDefaultDemo {
     public static void main(String[] args) throws IOException {
-        Company company = createCompany();
-
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        gson.toJson(company, System.out);
-    }
-
-    private static Company createCompany() {
         Company company = new Company();
-        company.setName("Actimem");
-        company.setFoundingYear(1999);
-        company.setShareValue(3.5);
-        company.getDepartments().add("accounts");
-        company.getDepartments().add("sales");
-        company.getDepartments().add("back office");
-        return company;
+
+        ObjectMapper mapper = new ObjectMapper();
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(company);
+        System.out.println(json);
     }
 }

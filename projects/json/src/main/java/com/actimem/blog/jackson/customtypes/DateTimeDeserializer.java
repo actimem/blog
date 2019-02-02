@@ -17,7 +17,6 @@
 package com.actimem.blog.jackson.customtypes;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import org.joda.time.DateTime;
@@ -26,7 +25,7 @@ import java.io.IOException;
 
 public class DateTimeDeserializer extends JsonDeserializer<DateTime> {
     @Override
-    public DateTime deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
+    public DateTime deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
         return new DateTime(p.getValueAsString());
     }
 }

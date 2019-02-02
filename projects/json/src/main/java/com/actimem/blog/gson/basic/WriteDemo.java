@@ -30,13 +30,14 @@ public class WriteDemo {
         System.out.println(gson.toJson(company));
 
         // Java to JSON appendable (Writter or OutputStream)
-        gson.toJson(company, System.out);
+        Appendable appendable = System.out;
+        gson.toJson(company, appendable);
     }
 
     private static Company createCompany() {
         Company company = new Company();
         company.setName("Actimem");
-        company.setFoundedYear(1999);
+        company.setFoundingYear(1999);
         company.setShareValue(3.5);
         company.getDepartments().add("accounts");
         company.getDepartments().add("sales");

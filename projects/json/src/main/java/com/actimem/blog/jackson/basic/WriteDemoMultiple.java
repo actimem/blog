@@ -14,19 +14,37 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.gson.basic;
+package com.actimem.blog.jackson.basic;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
+import java.io.StringWriter;
 
-public class PrettyPrintWriteDemo {
+public class WriteDemoMultiple {
     public static void main(String[] args) throws IOException {
         Company company = createCompany();
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        gson.toJson(company, System.out);
+        ObjectMapper mapper = new ObjectMapper();
+
+        // Java to JSON String
+        String json = mapper.writeValueAsString(company);
+        System.out.println(json);
+
+        // Java to JSON String using pretty printer
+        String jsonPretty = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(company);
+        System.out.println(jsonPretty);
+
+        // Java to JSON String using pretty printer
+        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+        String jsonPretty2 = mapper.writeValueAsString(company);
+        System.out.println(jsonPretty2);
+
+        // Java to JSON Writer
+        StringWriter writer = new StringWriter();
+        mapper.writeValue(writer, company);
+        System.out.println(writer);
     }
 
     private static Company createCompany() {

@@ -20,23 +20,24 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Company {
     private String name;
-    private int foundedYear;
+    private int foundingYear;
     private double shareValue;
 
     @JsonIgnore
     private String unknown;
+
     @JsonIgnore
     private String anotherUnknown;
 
     public Company() {
     }
 
-    public int getFoundedYear() {
-        return foundedYear;
+    public int getFoundingYear() {
+        return foundingYear;
     }
 
-    public void setFoundedYear(int foundedYear) {
-        this.foundedYear = foundedYear;
+    public void setFoundingYear(int foundedYear) {
+        this.foundingYear = foundedYear;
     }
 
     public String getName() {
@@ -55,9 +56,25 @@ public class Company {
         this.shareValue = shareValue;
     }
 
+    public String getUnknown() {
+        return unknown;
+    }
+
+    public void setUnknown(String unknown) {
+        this.unknown = unknown;
+    }
+
+    public String getAnotherUnknown() {
+        return anotherUnknown;
+    }
+
+    public void setAnotherUnknown(String anotherUnknown) {
+        this.anotherUnknown = anotherUnknown;
+    }
+
     @Override
     public String toString() {
-        return String.format("Name: %s, Founded: %d, Share: %s", name, foundedYear, shareValue);
+        return String.format("Name: %s, Founded: %d, Share: %s", name, foundingYear, shareValue);
     }
 
 }

@@ -51,5 +51,4 @@ public class Company {
     public String toString() {
         return String.format("Name: %s, Unknown: %s", name, otherProperties);
     }
-
 }

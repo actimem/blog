@@ -14,32 +14,23 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.jackson.customtypesjoda;
+package com.actimem.blog.gson.ignoredproperties;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.joda.JodaModule;
-import org.joda.time.DateTime;
-import org.joda.time.LocalDate;
+import com.google.gson.Gson;
 
 import java.io.IOException;
 
-public class JodaDemo {
+public class IgnorePropertiesDemo {
     public static void main(String[] args) throws IOException {
         Company company = new Company();
         company.setName("Actimem");
-        company.setFounded(new LocalDate());
-        company.setUpdatedTS(new DateTime());
+        company.setFoundingYear(1999);
+        company.setShareValue(3.5);
+        company.setUnknown("Unknown");
+        company.setAnotherUnknown("Unknown");
 
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.registerModule(new JodaModule());
-
-        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
-        String json = mapper.writeValueAsString(company);
+        Gson gson = new Gson();
+        String json = gson.toJson(company);
         System.out.println(json);
-
-        Company company2 = mapper.readValue(json, Company.class);
-        System.out.println(company2.toString());
     }
 }

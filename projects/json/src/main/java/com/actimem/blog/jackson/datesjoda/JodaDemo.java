@@ -14,26 +14,28 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.jackson.dates;
+package com.actimem.blog.jackson.datesjoda;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.joda.JodaModule;
+import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
 
 import java.io.IOException;
-import java.util.Date;
-import java.util.GregorianCalendar;
 
-public class SerializedFeatureDateDemo {
+public class JodaDemo {
     public static void main(String[] args) throws IOException {
         Company company = new Company();
         company.setName("Actimem");
-        company.setFounded(new GregorianCalendar(2015, 5, 20).getTime());
-        company.setUpdatedTs(new Date());
+        company.setFounded(new LocalDate());
+        company.setUpdatedTS(new DateTime());
 
         ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+        mapper.registerModule(new JodaModule());
         mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
-        String json = mapper.writeValueAsString(company);
+
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(company);
         System.out.println(json);
 
         Company company2 = mapper.readValue(json, Company.class);

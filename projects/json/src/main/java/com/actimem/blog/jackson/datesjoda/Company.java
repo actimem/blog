@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.jackson.customtypesjoda;
+package com.actimem.blog.jackson.datesjoda;
 
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
@@ -27,29 +27,14 @@ public class Company {
     public Company() {
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public LocalDate getFounded() { return founded; }
+    public void setFounded(LocalDate founded) { this.founded = founded; }
 
-    public LocalDate getFounded() {
-        return founded;
-    }
-
-    public void setFounded(LocalDate founded) {
-        this.founded = founded;
-    }
-
-    public DateTime getUpdatedTS() {
-        return updatedTS;
-    }
-
-    public void setUpdatedTS(DateTime updatedTS) {
-        this.updatedTS = updatedTS;
-    }
+    public DateTime getUpdatedTS() { return updatedTS; }
+    public void setUpdatedTS(DateTime updatedTS) { this.updatedTS = updatedTS; }
 
     @Override
     public String toString() {

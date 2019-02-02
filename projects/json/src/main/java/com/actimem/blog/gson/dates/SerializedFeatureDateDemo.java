@@ -35,7 +35,7 @@ public class SerializedFeatureDateDemo {
         // DateFormat.LONG
         // DateFormat.MEDIUM
         // DateFormat.SHORT
-        Gson gson = new GsonBuilder().setDateFormat(DateFormat.FULL).create();
+        Gson gson = new GsonBuilder().setDateFormat(DateFormat.MEDIUM).create();
         String json = gson.toJson(company);
         System.out.println(json);
 

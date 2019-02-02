@@ -24,36 +24,14 @@ public class Company {
     private Address address;
     private List<Employee> employees = new ArrayList<Employee>();
 
-    public Company() {
-    }
+    public List<Employee> getEmployees() { return employees; }
+    public void add(Employee employee) { employees.add(employee); }
 
-    public List<Employee> getEmployees() {
-        return employees;
-    }
+    public Address getAddress() { return address; }
+    public void setAddress(Address address) { this.address = address; }
 
-    public void setEmployees(List<Employee> employees) {
-        this.employees = employees;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
-
-    public void add(Employee employee) {
-        employees.add(employee);
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name;}
 
     @Override
     public String toString() {

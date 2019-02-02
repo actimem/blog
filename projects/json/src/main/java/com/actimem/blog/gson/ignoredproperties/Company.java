@@ -14,43 +14,25 @@
  * limitations under the License.
  */
 
-package com.actimem.blog.jackson.emptyproperties;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.actimem.blog.gson.ignoredproperties;
 
 public class Company {
     private String name;
-    private String address;
-    private int foundedYear;
+    private int foundingYear;
     private double shareValue;
-    private List<String> departments = new ArrayList<>();
+
+    private transient String unknown;
+    private transient String anotherUnknown;
 
     public Company() {
     }
 
-    public String getAddress() {
-        return address;
+    public int getFoundingYear() {
+        return foundingYear;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public List<String> getDepartments() {
-        return departments;
-    }
-
-    public void setDepartments(List<String> departments) {
-        this.departments = departments;
-    }
-
-    public int getFoundedYear() {
-        return foundedYear;
-    }
-
-    public void setFoundedYear(int foundedYear) {
-        this.foundedYear = foundedYear;
+    public void setFoundingYear(int foundedYear) {
+        this.foundingYear = foundedYear;
     }
 
     public String getName() {
@@ -68,4 +50,26 @@ public class Company {
     public void setShareValue(double shareValue) {
         this.shareValue = shareValue;
     }
+
+    public String getUnknown() {
+        return unknown;
+    }
+
+    public void setUnknown(String unknown) {
+        this.unknown = unknown;
+    }
+
+    public String getAnotherUnknown() {
+        return anotherUnknown;
+    }
+
+    public void setAnotherUnknown(String anotherUnknown) {
+        this.anotherUnknown = anotherUnknown;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s, Founded: %d, Share: %s", name, foundingYear, shareValue);
+    }
+
 }

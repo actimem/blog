@@ -26,21 +26,11 @@ public class Company {
     public Company() {
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Map<String, String> getEmployeeDepartments() {
-        return employeeDepartments;
-    }
-
-    public void addEmployeeDepartment(String name, String department) {
-        employeeDepartments.put(name, department);
-    }
+    public Map<String, String> getEmployeeDepartments() { return employeeDepartments; }
+    public void addEmployeeDepartment(String name, String department) { employeeDepartments.put(name, department); }
 
     @Override
     public String toString() {

@@ -28,9 +28,8 @@ public class IgnoreNullDemo {
         company.setName("Actimem");
 
         ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-        String json = mapper.writeValueAsString(company);
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(company);
         System.out.println(json);
     }
 }

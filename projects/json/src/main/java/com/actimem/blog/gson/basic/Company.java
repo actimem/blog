@@ -21,47 +21,27 @@ import java.util.List;
 
 public class Company {
     private String name;
-    private int foundedYear;
+    private int foundingYear;
     private double shareValue;
     private List<String> departments = new ArrayList<String>();
 
     public Company() {
     }
 
-    public List<String> getDepartments() {
-        return departments;
-    }
+    public List<String> getDepartments() { return departments; }
+    public void setDepartments(List<String> departments) { this.departments = departments; }
 
-    public void setDepartments(List<String> departments) {
-        this.departments = departments;
-    }
+    public int getFoundingYear() { return foundingYear; }
+    public void setFoundingYear(int foundingYear) { this.foundingYear = foundingYear; }
 
-    public int getFoundedYear() {
-        return foundedYear;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public void setFoundedYear(int foundedYear) {
-        this.foundedYear = foundedYear;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getShareValue() {
-        return shareValue;
-    }
-
-    public void setShareValue(double shareValue) {
-        this.shareValue = shareValue;
-    }
+    public double getShareValue() { return shareValue; }
+    public void setShareValue(double shareValue) { this.shareValue = shareValue; }
 
     @Override
     public String toString() {
-        return String.format("Name: %s, Founded: %d, Share: %s, Departments: %s", name, foundedYear, shareValue, departments);
+        return String.format("Name: %s, Founded: %d, Share: %s, Departments: %s", name, foundingYear, shareValue, departments);
     }
 }

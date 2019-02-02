@@ -17,19 +17,19 @@
 package com.actimem.blog.jackson.ignoreproperties;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 
 public class IgnorePropertiesDemo {
     public static void main(String[] args) throws IOException {
-        com.actimem.blog.jackson.annotations.Company company = new com.actimem.blog.jackson.annotations.Company();
+        Company company = new Company();
         company.setName("Actimem");
-        company.setFoundedYear(1999);
+        company.setFoundingYear(1999);
         company.setShareValue(3.5);
+        company.setUnknown("Unknown");
+        company.setAnotherUnknown("Unknown");
 
         ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         String json = mapper.writeValueAsString(company);
         System.out.println(json);
     }

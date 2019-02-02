@@ -23,40 +23,24 @@ public class Company {
     private String name;
 
     @JsonProperty("established")
-    private int foundedYear;
+    private int foundingYear;
 
     @JsonProperty("price")
     private double shareValue;
 
-    public Company() {
-    }
+    public Company() { }
 
-    public int getFoundedYear() {
-        return foundedYear;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public void setFoundedYear(int foundedYear) {
-        this.foundedYear = foundedYear;
-    }
+    public int getFoundingYear() { return foundingYear; }
+    public void setFoundingYear(int foundingYear) { this.foundingYear = foundingYear; }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getShareValue() {
-        return shareValue;
-    }
-
-    public void setShareValue(double shareValue) {
-        this.shareValue = shareValue;
-    }
+    public double getShareValue() { return shareValue; }
+    public void setShareValue(double shareValue) { this.shareValue = shareValue; }
 
     @Override
     public String toString() {
-        return String.format("Name: %s, Founded: %d, Share: %s", name, foundedYear, shareValue);
+        return String.format("Name: %s, Founded: %d, Share: %s", name, foundingYear, shareValue);
     }
 }

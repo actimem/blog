@@ -29,7 +29,7 @@ public class IncludeAllDemo {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         mapper.setSerializationInclusion(JsonInclude.Include.ALWAYS);
-        String json = mapper.writeValueAsString(company);
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(company);
         System.out.println(json);
     }
 }

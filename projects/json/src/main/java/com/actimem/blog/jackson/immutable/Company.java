@@ -33,17 +33,9 @@ public class Company {
         this.shareValue = shareValue;
     }
 
-    public int getFoundedYear() {
-        return foundedYear;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getShareValue() {
-        return shareValue;
-    }
+    public int getFoundedYear() { return foundedYear; }
+    public String getName() { return name; }
+    public double getShareValue() { return shareValue; }
 
     @Override
     public String toString() {

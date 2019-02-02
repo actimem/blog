@@ -26,7 +26,7 @@ public class ReadWriteDemo {
     public static void main(String[] args) throws IOException {
         Company company = new Company();
         company.setName("Actimem");
-        company.setFoundedYear(1999);
+        company.setFoundingYear(1999);
         company.setShareValue(3.5);
         company.getDepartments().add("accounts");
         company.getDepartments().add("sales");

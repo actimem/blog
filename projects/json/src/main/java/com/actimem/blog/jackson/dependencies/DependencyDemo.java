@@ -23,17 +23,20 @@ import java.io.IOException;
 
 public class DependencyDemo {
     public static void main(String[] args) throws IOException {
+        // Create Company and employees
         Company company = new Company();
         company.setName("Actimem");
         company.setAddress(new Address("10 Street Name", "London"));
         company.add(new Employee("John", 10));
         company.add(new Employee("Michael", 10));
 
+        // Write to JSON
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         String json = mapper.writeValueAsString(company);
         System.out.println(json);
 
+        // Read from JSON
         Company company2 = mapper.readValue(json, Company.class);
         System.out.println(company2);
     }
